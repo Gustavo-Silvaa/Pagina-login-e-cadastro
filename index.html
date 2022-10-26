@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="shortcut icon" href="img/dados-pessoais.png" type="image/x-icon" />
+    <title>Login</title>
+
+    <script type="text/javascript" src="JS/ocultarcad.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="#">
+                <li>Inicio</li>
+            </a>
+            <a href="#">
+                <li>Produtos</li>
+            </a>
+            <a href="#">
+                <li>Login</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="container">
+        <main>
+            <h2>Faça seu login!</h2>
+            <form>
+                <label class="login">
+                    <h3>E-mail</h3>
+                    <input type="email" id="inplogin" placeholder="Digite seu e-mail..." required>
+                </label>
+                <h3>Senha</h3>
+                <label class="senha">
+                    <input type="password" id="inpsenha" placeholder="Digite sua senha..." required>
+                    <img id="olho" onclick="visualizar()" src="https://cdn-icons-png.flaticon.com/512/158/158746.png">
+                </label>
+                <label class="enviar">
+                    <input type="submit" value="Entrar" id="inpenviar">
+                </label>
+                <hr>
+            </form>
+            <a href="cadastro.html">
+                <h3>Cadastre-se aqui</h3>
+            </a>
+        </main>
+    </div>
+</body>
+
+</html>

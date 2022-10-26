@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/31/20/33/background-869578_960_720.png);
+    background-size: cover;
+}
+
+nav {
+    margin: auto;
+    width:100%;
+    height: 50px;
+    background-color: rgba(68, 66, 66, 0.649);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+nav ul li {
+    margin: 13px 0px 0px 60px;
+    font-size: 22px;
+    color: rgb(147, 82, 208);
+}
+
+nav ul li:hover {
+    color: rgb(129, 7, 244);
+    font-size: 23px;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --------------------------------------------- */
+
+form {
+    width: 70%;
+    margin: auto;
+    margin-top: 3em;
+    border-radius: 5px;
+    background-color: rgba(68, 66, 66, 0.649);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3em;
+    color: rgb(147, 82, 208);
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    border-color: rgb(147, 82, 208);;
+}
+
+.dados{
+    color: rgb(147, 82, 208);
+    display: flex;
+    margin: auto;
+    padding: 2em 0 0 10em;
+}
+
+.ende {
+    margin-left: 12em;
+}
+
+/* ------------------------------------------ */
+
+.ficha {
+    display: flex;
+    margin: auto;
+}
+
+
+.ficha1{
+    width: 50%;
+    padding: 1.4em;
+}
+
+.ficha2 {
+    margin: 1.4em;
+}
+
+
+
+
+/* ------------------------------------------- */
+
+label h3{
+    padding: 0.3em;
+    font-size: 1.4em;
+    color: rgb(147, 82, 208);
+}
+
+.ficha1 input {
+    padding: 0.3em;
+    border-radius: 5px;
+    width: 300px;
+}
+
+/* ------- */
+
+.ficha2 input {
+    padding: 0.3em;
+    border-radius: 5px;
+}
+
+.texto {
+    display: flex;
+}
+ .bairro {
+    width: 50%;
+ }
+
+ .rua {
+    width: 30em;
+ }
+ /* ---------- */
+ .envia {
+    text-align: center;
+    margin-top: 3em;
+ }
+/* -------- */
+
+input:hover{
+    background-color: rgb(187, 181, 181);
+}
+
+.genero input {
+    width: 30px;
+}
+
+.genero {
+    color: rgb(188, 137, 236);
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+/* ---------------------------- */
+
+#olho {
+    width: 6%;
+    margin-left: 10px;
+}
+#olho1{
+    width: 6%;
+    margin-left: 10px;
+}
+
+.senha, .senha1{
+    display: flex;
+}

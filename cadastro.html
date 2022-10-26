@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/cadastro.css">
+    <link rel="shortcut icon" href="img/dados-pessoais.png" type="image/x-icon" />
+    <title>Cadastro</title>
+
+    <script type="text/javascript" src="JS/ocultarcad.js"></script>
+    <script type="text/javascript" src="JS/Cep.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="#">
+                <li>Inicio</li>
+            </a>
+            <a href="#">
+                <li>Produtos</li>
+            </a>
+            <a href="index.html">
+                <li>Login</li>
+            </a>
+        </ul>
+    </nav>
+
+    <form action="">
+        <h1>Cadastro</h1>
+        <hr>
+        <div class="dados">
+            <h2 class="pesso">Dados pessoais</h2>
+            <h2 class="ende">Endereço</h2>
+        </div>
+        <div class="ficha">
+            <div class="ficha1">
+
+                <label>
+                    <h3>Nome</h3>
+                    <input type="text" placeholder="Digite seu nome!" required>
+                </label>
+
+                <label>
+                    <h3>Sobrenome</h3>
+                    <input type="text" placeholder="Digite seu sobrenome!" required>
+                </label>
+
+                <label>
+                    <h3>E-mail</h3>
+                    <input type="email" placeholder="Digite seu E-mail!" required>
+                </label>
+
+                <label>
+                    <h3>Senha</h3>
+                    <div class="senha">
+                        <input type="password" id="inpsenha" placeholder="Digite sua senha!" required>
+                        <img id="olho" onclick="visualizar()"
+                            src="https://cdn-icons-png.flaticon.com/512/158/158746.png">
+                    </div>
+                </label>
+
+                <label>
+                    <h3>Confirme sua senha</h3>
+                    <div class="senha1">
+                        <input type="password" id="inpsenha1" placeholder="Digite novamente sua senha!" required>
+                        <img id="olho1" onclick="visualizar1()"
+                            src="https://cdn-icons-png.flaticon.com/512/158/158746.png">
+                    </div>
+                </label>
+
+                <label>
+                    <h3>Sua idade</h3>
+                    <input type="date" placeholder="Digite seu sobrenome!" required>
+                </label>
+
+                <label>
+                    <h3>Gênero</h3>
+                    <div class="genero">
+                        <input type="radio" name="sexo" required> Masculino
+                        <input type="radio" name="sexo" required> Feminino
+                        <input type="radio" name="sexo" required> Outros
+                    </div>
+                </label>
+
+                <label>
+                    <h3>Numero de telefone</h3>
+                    <input type="number" placeholder="(47) 9 9999-9999" required>
+                </label>
+            </div>
+
+            <div class="ficha2">
+                <label>
+                    <h3>Digite seu Cep</h3>
+                    <input type="text" id="txtcep">
+                </label>
+
+                <label >
+                    <h3>Rua</h3>
+                    <input type="text" class="rua" id="rua">
+                </label>
+
+                <label>
+                    <div class="texto">
+                        <div class="bairro">
+                            <h3>Bairro</h3>
+                        </div>
+                        <div class="num">
+                            <h3>Número</h3>
+                        </div>
+                    </div>
+                    <input type="text" id="bairro">
+                    <input type="number" id="numero">
+                </label>
+
+                <label>
+                    <div class="texto">
+                        <div class="bairro">
+                            <h3>Cidade</h3>
+                        </div>
+                        <div class="num">
+                            <h3>Estado</h3>
+                        </div>
+                    </div>
+                    <input type="text" id="cidade">
+                    <input type="text" id="estado">
+                </label>
+
+                <div class="envia">
+                    <label>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Cancelar">
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        
+    </form>
+</body>
+
+</html>
