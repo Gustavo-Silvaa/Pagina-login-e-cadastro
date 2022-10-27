@@ -1,7 +1,7 @@
 function buscacep() {
     let cep = document.getElementById('txtcep').value;
     if (cep !== "") {
-        let url = "http://brasilapi.com.br/api/cep/v1/" + cep;
+        let url = "https://brasilapi.com.br/api/cep/v1/" + cep;
         
         let req = new XMLHttpRequest();
         req.open("GET", url);
